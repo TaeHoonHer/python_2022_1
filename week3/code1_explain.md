@@ -5,7 +5,7 @@
 ### turtle이란?
 - 파이썬에서 사용할 수 있는 그래픽 모듈, turtle모양의 커서가 지나간 흔적을 바탕으로 화면에 그림을 그릴 수 있다
 
-###사용법
+### 사용법
 - import turtle 을 작성하여 python에 turtle을 import 시킨다
 
 aaa = turtle.Turtle()
