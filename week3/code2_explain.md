@@ -16,6 +16,8 @@ def Myadd2(x_tu):
 - Myadd2라는 함수를 만든 후, 뒤에 x_tu라는 매개변수를 통해 값을 받아온다
 - 그 후, x_tu로 들어오는 값에 [0], [1] 번째 인덱스를 더해 return한다
 
+<br></br>
+
 ``` python
 def Myadd4(x_lt):
   lt = []
@@ -23,7 +25,7 @@ def Myadd4(x_lt):
     lt.append(Myadd2(kk))
   return lt
 ```
-####위 함수 해설
+#### 위 함수 해설
 - lt라는 배열을 하나 생성
 - for문을 통해 매개변수 x_lt안에 들어오는 값 만큼 반복한다
 - .append를 통해 배열 lt에 x_lt를 거쳐 들어오는 kk 값을 하나씩 Myadd 함수에 넣는다
